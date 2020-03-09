@@ -14,8 +14,9 @@ in the header you put `Authorization` -> your special key
 | table| the table you want |yes
 | row| a specific row | (optional)
 | limit| how many you want| (optional)
-**URL:** https://example.com/api/table/row/limit
-**Example:** https://example.com/api/category/name/3
+
+**URL:** https://example.com/api/table/row/limit <br>
+**Example:** https://example.com/api/category/name/3 <br>
 **Success Response:**
 ```
 {
@@ -33,12 +34,14 @@ in the header you put `Authorization` -> your special key
 |Field|Value|Required|
 |--|--|--|
 | table| the table you want |yes
+
 **Body Params:**
 |Field|Value|Required|
 |--|--|--|
 | row| the row you want to define (joined by "-") |yes
 | value| the values you want to define (joined by "-")| yes
-**URL:** https://example.com/api/table
+
+**URL:** https://example.com/api/table <br>
 **Example:** https://example.com/api/category
 ## DELETE
 **URL Params:**
@@ -46,7 +49,8 @@ in the header you put `Authorization` -> your special key
 |--|--|--|
 | table| the table you want |yes
 | id| The specific id of a item | yes
-**URL:** https://example.com/api/table/id
+
+**URL:** https://example.com/api/table/id <br>
 **Example:** https://example.com/api/category/12
 
 ## PUT
@@ -57,12 +61,11 @@ in the header you put `Authorization` -> your special key
 | id | the specific id | yes
 | row | a specific row | yes
 | value | how many you want| yes
-**URL:** https://example.com/api/key/table/id/row/value
+
+**URL:** https://example.com/api/key/table/id/row/value <br>
 **Example:** http://example.com/api/category/13/name/working
 
-
 ## Responces
-
 * **Success Response:**
   * **Code:** 200
      **Content:** `{data: [{id: 12}] }`
