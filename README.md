@@ -67,13 +67,13 @@ in the header you put `Authorization` -> your special key
 
 ## Responces
 * **Success Response:**
-  * **Code:** 200
+  * **Code:** 200 <br>
      **Content:** `{data: [{id: 12}] }`
  
 * **Error Response:**
-  * **Code:** 401 UNAUTHORIZED
+  * **Code:** 401 UNAUTHORIZED <br>
     **Content:** `{ error : "you don't have a key" }`
-  * **Code:** 422 UNPROCESSABLE ENTRY
+  * **Code:** 422 UNPROCESSABLE ENTRY <br>
     **Content:** `{ error : "please give an ..." }`
-  * **Code:** 409 CONFLICT
+  * **Code:** 409 CONFLICT <br>
     **Content:** `{ error : "..." }`
